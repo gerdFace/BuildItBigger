@@ -21,20 +21,21 @@ android {
 
     flavorDimensions "tier"
 
-    productFlavors{
-        free{
-            applicationId "com.majd.builditbigger.free"
+    productFlavors {
+        free {
+            applicationId "com.builditbigger.free"
             dimension "tier"
 
         }
-        paid{
-            applicationId "com.majd.builditbigger.paid"
+        paid {
+            applicationId "com.builditbigger.paid"
             dimension "tier"
         }
     }
 }
 
 dependencies {
+    implementation 'com.android.support:support-v4:26.1.0'
     compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
@@ -42,7 +43,7 @@ dependencies {
 
     compile 'com.android.support:appcompat-v7:26.1.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    freeCompile'com.google.android.gms:play-services-ads:11.8.0'
+    freeCompile 'com.google.android.gms:play-services-ads:11.8.0'
     compile 'com.google.code.findbugs:jsr305:3.0.1'
     testCompile 'junit:junit:4.12'
     compile project(path: ':backend', configuration: 'android-endpoints')
