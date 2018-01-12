@@ -1,5 +1,7 @@
 package com.example.jokelibrary;
 
+import java.util.Random;
+
 public class Jokes {
 
     private final String jokes[] = {
@@ -13,6 +15,6 @@ public class Jokes {
         Random random = new Random();
         int randomIndex = random.nextInt(jokes.length - 1);
 
-        return jokes[randomIndex]
+        return jokes[randomIndex];
     }
 }
