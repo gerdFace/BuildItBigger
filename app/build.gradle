@@ -23,7 +23,7 @@ android {
 
     productFlavors {
         free {
-            applicationId "com.udacity.gradle.builditbiger.free"
+            applicationId "com.udacity.gradle.builditbigger.free"
             versionName "1.0-free"
             dimension "tier"
 

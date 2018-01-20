@@ -5,10 +5,10 @@ import java.util.Random;
 public class Jokes {
 
     private final String jokes[] = {
-            "Some Joke",
-            "Another Joke",
+            "Joke #1",
+            "Joke #2",
             "Joke #3",
-            "Joke #D"
+            "Joke #4"
     };
 
     public String getJokes() {

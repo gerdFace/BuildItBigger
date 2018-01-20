@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
-        JokseAsyncTask asyncTask = new JokseAsyncTask(this);
+        JokesAsyncTask asyncTask = new JokesAsyncTask(this);
         asyncTask.execute();
     }
 
