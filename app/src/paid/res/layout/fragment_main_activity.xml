@@ -2,7 +2,7 @@
              xmlns:tools="http://schemas.android.com/tools"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
-             tools:context="com.builditbigger.free.MainActivityFragment">
+             tools:context="com.udacity.gradle.builditbigger.MainActivityFragment">
 
     <TextView
         android:id="@+id/instructions_text_view"
